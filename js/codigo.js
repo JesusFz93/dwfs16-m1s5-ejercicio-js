@@ -35,8 +35,24 @@ let activo = false;
 // console.log(fechaDeNacimiento);
 // console.log(soltero);
 
-let precio = "45";
-let cantidad = 5;
+// let precio = "45";
+// let cantidad = 5;
 
-let total = Number(precio) + cantidad;
-console.log(total);
+// let total = Number(precio) + cantidad;
+// console.log(total);
+
+// let operando1 = 100;
+// let operando2 = 50;
+
+// let suma = operando1 + operando2;
+// let resta = operando1 - operando2;
+// let multi = operando1 * operando2;
+// let division = operando1 / operando2;
+
+// console.log("Suma: " + suma);
+// console.log("Resta: " + resta);
+// console.log("Multiplicacion: " + multi);
+// console.log("Divison: " + division);
+
+// let comparacion = operando1 > operando2 && operando1 < operando2;
+// console.log(comparacion);
