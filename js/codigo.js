@@ -147,9 +147,9 @@ lineas
 // pares(3);
 
 // Ejercicio 2
-function nombre(nombre, apellido) {
-  let nombreCompleto = nombre + " " + apellido;
-  console.log(nombreCompleto);
-}
+// function nombre(nombre, apellido) {
+//   let nombreCompleto = nombre + " " + apellido;
+//   console.log(nombreCompleto);
+// }
 
-nombre("Roberto", "Rivera");
+// nombre("Roberto", "Rivera");
