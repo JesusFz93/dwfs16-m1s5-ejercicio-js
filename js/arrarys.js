@@ -94,14 +94,78 @@
 // console.log(valor);
 
 // Ejercicio 1
-let numero = 9;
-for (let i = 1; i <= 10; i++) {
-  //   console.log(numero + " x " + i + " = " + numero * i);
-  console.log(`${numero} x ${i} = ${numero * i}`);
-}
+// let numero = 9;
+// for (let i = 1; i <= 10; i++) {
+//   //   console.log(numero + " x " + i + " = " + numero * i);
+//   console.log(`${numero} x ${i} = ${numero * i}`);
+// }
 // Cocatenar texto
 // let nombre = "Jesus";
 // let apellido = "Fernadnez";
 
 // console.log(nombre + " " + apellido);
 // console.log(`${nombre} ${apellido}`);
+
+// const nombres = [
+//   "alberto",
+//   "paty",
+//   "Jose",
+//   "daniel",
+//   "luis",
+//   "antonio",
+//   "Luis",
+//   "paty",
+//   "luis",
+// ];
+
+// const nombreMayusculas = [];
+
+// nombres.forEach(function (nombre) {
+//   nombreMayusculas.push(nombre.toUpperCase());
+// });
+
+// console.log(nombres);
+// console.log(nombreMayusculas);
+
+// SECCION 3: EJERCICIOS
+// Ejercicio guiado
+
+/*
+Crear un método que reciba un array de calificaciones y obtenga 
+el promedio con el uso de los métodos de arrays. 
+Si el promedio es mayor a 70 imprima que aprobó / 
+si es menor, que no aprobó.
+
+promedio([70, 80, 80, 90, 60]) // Aprobado: 76.
+promedio([70, 50, 75, 70, 60]) // No Aprobado: 65.
+*/
+
+// function promedio(calificaciones) {
+//   const sum = calificaciones.reduce(function (acumulado, calificacion) {
+//     return acumulado + calificacion;
+//   }, 0);
+
+//   const promedio = sum / calificaciones.length;
+
+//   if (promedio >= 70) {
+//     console.log(`Aprobado: ${promedio}`);
+//   } else {
+//     console.log(`No Aprobado: ${promedio}`);
+//   }
+// }
+
+// promedio([70, 50, 75, 70, 60]);
+
+// Ejercicio 2
+/*
+Método que reciba un array e imprima en la consola cada uno de sus elementos.
+imprimeArray([‘uno’, 2, null, 0]);
+*/
+
+// function imprimeArray(valores) {
+//   valores.forEach(function (valor) {
+//     console.log(valor);
+//   });
+// }
+
+// imprimeArray(["uno", 2, null, 0]);
