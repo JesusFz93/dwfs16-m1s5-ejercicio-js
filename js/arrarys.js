@@ -169,3 +169,15 @@ imprimeArray([‘uno’, 2, null, 0]);
 // }
 
 // imprimeArray(["uno", 2, null, 0]);
+
+// function aprobadas(calificaciones) {
+//   const califiacionesAprobadas = calificaciones.filter(function (calificacion) {
+//     if (calificacion >= 70) {
+//       return calificacion;
+//     }
+//   });
+
+//   console.log(califiacionesAprobadas);
+// }
+
+// aprobadas([50, 80, 100, 69, 70, 10]);
