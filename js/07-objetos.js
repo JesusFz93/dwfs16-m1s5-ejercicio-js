@@ -100,3 +100,24 @@
 // console.log(fruta1);
 // console.log(fruta3);
 // console.log(arreglo[3]);
+
+// const usuarios = [
+//   {
+//     nombre: "Juan",
+//     edad: 34,
+//     activo: true,
+//     actividades: ["Futbol", "Programar"],
+//   },
+//   {
+//     nombre: "Abril",
+//     edad: 19,
+//     activo: false,
+//     actividades: ["Natacion"],
+//   },
+// ];
+
+// console.log(usuarios[1].actividades[0]);
+// const myObj = { name: "Juan", age: 25 };
+
+// console.log(myObj.name);
+// console.log(Object.keys(myObj));
