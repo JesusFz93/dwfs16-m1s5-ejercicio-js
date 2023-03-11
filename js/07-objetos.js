@@ -121,3 +121,39 @@
 
 // console.log(myObj.name);
 // console.log(Object.keys(myObj));
+
+// Ejercicio 2
+// Crear un método que permita agregar un nuevo valor a un objeto global y si ya existe esa propiedad, imprima un mensaje de que ya existe. Si no, que agregue la propiedad.
+
+// let objeto = {};
+// console.log(objeto);
+
+// // function agregarNuevoValor() {}
+// const agregarNuevoValor = (propiedad, valor) => {
+//   if (objeto[propiedad]) {
+//     console.log("La propiedad ya existe");
+//     console.log(objeto);
+//     return;
+//   }
+
+//   objeto[propiedad] = valor;
+//   console.log(objeto);
+// };
+
+// agregarNuevoValor("edad", 7);
+
+// Ejercicio 3
+const libros = [];
+
+const agregarLibro = (titulo, autor) => {
+  const libro = {
+    titulo: titulo,
+    autor: autor,
+  };
+
+  libros.push(libro);
+};
+
+const imprimirLibros = () => {
+  console.log(libros);
+};
