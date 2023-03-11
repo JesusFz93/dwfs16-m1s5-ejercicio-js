@@ -53,13 +53,50 @@
 // });
 
 // for in
-const persona = {
-  nombre: "Fernando",
-  apellido: "Hernandez",
-  edad: 28,
-  deporte: "Futbol",
-};
+// const persona = {
+//   nombre: "Fernando",
+//   apellido: "Hernandez",
+//   edad: 28,
+//   deporte: "Futbol",
+// };
 
-for (let propiedad in persona) {
-  console.log(persona[propiedad]);
-}
+// for (let propiedad in persona) {
+//   console.log(persona[propiedad]);
+// }
+
+// Desestructuracion de objetos
+// const persona = {
+//   nombre: "Fernando",
+//   apellido: "Hernandez",
+//   edad: 28,
+//   deporte: "Futbol",
+// };
+
+// const perro = {
+//   nombre: "Max",
+//   edad: 3,
+// };
+
+// const { nombre: nombrePersona, apellido } = persona;
+// const { nombre: nombrePerro, edad } = perro;
+
+// const nombrePersona = "Fernando"
+// const nombrePerro = "Max"
+
+// console.log(persona);
+// let firstName = persona.nombre;
+// let lastName = persona["apellido"];
+
+// console.log(`${nombrePersona} ${apellido}`);
+
+// Desestructuracion de arreglos
+// const arreglo = ["Naranja", "Melon", 45, true];
+
+// const [fruta1, fruta2, fruta3] = arreglo;
+
+// let fruta1 = arreglo[0];
+// let fruta2 = arreglo[1];
+
+// console.log(fruta1);
+// console.log(fruta3);
+// console.log(arreglo[3]);
